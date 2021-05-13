@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Site-05-12_1109",
+    "name": "QCareCenter",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
@@ -37,6 +37,14 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "5.2.0",
     "siteFonts": [],
+    "favicon": false,
+    "imageResize": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
     "uniqCompNum": 37,
     "versionPublish": "5.2.0"
   },
