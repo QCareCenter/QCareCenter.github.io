@@ -1438,6 +1438,9 @@ a {
     justify-content: center;
   }
 }
+.cid-sxgIlNC8EI .copyright > p {
+  color: #000000;
+}
 .cid-sxfxZh5s3t {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -2675,4 +2678,7 @@ a {
     -webkit-justify-content: center;
     justify-content: center;
   }
+}
+.cid-sxgIlNC8EI .copyright > p {
+  color: #000000;
 }
