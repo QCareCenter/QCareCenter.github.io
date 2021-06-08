@@ -184,9 +184,34 @@
     
     <div class="container">
         <ul class="nav nav-tabs mb-4 justify-content-center mx-auto d-flex" role="tablist">
-            <li class="nav-item first mbr-section-btn"><a class="btn mbr-fonts-style btn-bgr show btn-black-outline active display-5" role="tab" data-toggle="tab" href="#extTabs15-g_tab0" aria-selected="true">Domestic Payment (Rs)</a></li>
-            <li class="nav-item mbr-section-btn"><a class="btn mbr-fonts-style btn-bgr show btn-black-outline active display-5" role="tab" data-toggle="tab" href="#extTabs15-g_tab1" aria-selected="true">International Payment ($)</a></li>
+            <li class="nav-item first mbr-section-btn"><a class="btn mbr-fonts-style btn-bgr show btn-black-outline active display-5" role="tab" data-toggle="tab" href="#extTabs15-g_tab0" aria-selected="true" name="domesticPaymentButton">Domestic Payment (Rs)</a></li>
+            <li class="nav-item mbr-section-btn"><a class="btn mbr-fonts-style btn-bgr show btn-black-outline active display-5" role="tab" data-toggle="tab" href="#extTabs15-g_tab1" aria-selected="true" name="intlPaymentButton">International Payment ($)</a></li>
         </ul>
+        
+        <script>
+            document.getElementsByName("domesticPaymentButton")[0].addEventListener("click", function(){
+                var tab1Dom = document.getElementById("tab1");
+                var tab2Dom = document.getElementById("tab2");
+                tab2Dom.classList.remove("in");
+                tab2Dom.classList.remove("active");
+                if(!tab1Dom.classList.contains("active")){
+                    tab1Dom.classList.add("in");
+                    tab1Dom.classList.add("active");
+                }
+            })
+            document.getElementsByName("intlPaymentButton")[0].addEventListener("click", function(){
+                var tab1Dom = document.getElementById("tab1");
+                var tab2Dom = document.getElementById("tab2");
+                tab1Dom.classList.remove("in");
+                tab1Dom.classList.remove("active");
+                if(!tab2Dom.classList.contains("active")){
+                    tab2Dom.classList.add("in");
+                    tab2Dom.classList.add("active");
+                }
+            })
+            document.getElementsByName("intlPaymentButton")[0].classList.remove("active");
+
+        </script>
         <div class="tab-content">
             <div id="tab1" class="tab-pane in active" role="tabpanel">
                 <div class="row align-items-start">
@@ -515,7 +540,7 @@
                     <div class="bg"></div>
                     <div class="form-wrap" data-form-type="formoid">
                     <!---Formbuilder Form--->
-                        <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="HS4OKGfr/3/Hs8GKqGwgOKvh0Ti3/A/q4bW8wTgWo1b45pn2gq9cd90Xw0dT7l4xCwuDBlXECpS/F4yAuV/GcWQmbjwGSAMm18hiFCydKeW85G6h9SiP5/9gBkKNdsm/">
+                        <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="EsivPuAsdLvGuKjYMEVvtNOImAgk6x5/YRkGaFan8/C6b6P9ZZfrcSi4lI1shYyUlUwn8sPOLYxpzj7FhWegu26FfyIysHExf/YeUIcvwiRzIj0I6ugKwOvN1Z8bYBPH">
                             <div class="form-row">
                                 <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
                                 <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12"></div>
@@ -606,7 +631,7 @@
         </div>
 
     </div>
-</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/u" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;"><a href="https://mobirise.site/s" style="color:#aaa;">Website</a> was started with Mobirise site templates</p></section><script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>  <script src="assets/parallax/jarallax.min.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/theme/js/script.js"></script>  <script src="assets/formoid/formoid.min.js"></script>  
+</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/w" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;">Mobirise site software - <a href="https://mobirise.site/o" style="color:#aaa;">Click for more</a></p></section><script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>  <script src="assets/parallax/jarallax.min.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/theme/js/script.js"></script>  <script src="assets/formoid/formoid.min.js"></script>  
   
   
   <input name="animation" type="hidden">

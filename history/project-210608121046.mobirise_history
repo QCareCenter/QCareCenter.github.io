@@ -57,7 +57,9 @@
     "versionPublish": "5.3.5",
     "mbrsiteDomain": "nmzbzaiohs",
     "publishChangesOnly": true,
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
